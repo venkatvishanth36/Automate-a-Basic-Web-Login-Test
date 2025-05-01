@@ -1,8 +1,6 @@
 # Automate-a-Basic-Web-Login-Test
 A simple Selenium WebDriver project that automates a basic login test using Java on a sample test website.
 
-# Automate a Basic Web Login Test
-
 This project demonstrates how to automate a basic login process using **Selenium WebDriver with Java**. It tests login functionality on a demo web application and verifies successful login through UI validation.
 
 ## 🔗 Website Under Test
