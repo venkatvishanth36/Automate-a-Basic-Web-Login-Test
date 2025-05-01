@@ -1,0 +1,2 @@
+Title: Automate Basic Web Login Test using Selenium WebDriver (Java)
+Purpose: This project demonstrates how to automate a simple login process on a sample website using Selenium WebDriver with Java. It validates a successful login attempt by verifying the presence of a success message after login.
