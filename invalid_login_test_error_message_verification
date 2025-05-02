@@ -1,1 +1,39 @@
+This project automates login functionality testing on the Practice Test Automation website using Java + Selenium WebDriver.
+
+It includes:
+✅ Valid login test
+❌ Invalid login test with error message validation
+📸 Screenshot capture on login
+
+📂 Project Structure
+automate_basic_web_login_test/
+│
+├── Login_test.java                  # Valid login test with success validation
+├── invalid_login_test_error_message_verification.java  # Invalid login test
+├── Screenshot_after_action.java    # Login test + screenshot capture
+
+🧰 Technologies Used
+Java
+Selenium WebDriver
+ChromeDriver
+Eclipse IDE
+JDK 8+
+Maven (optional for future use)
+
+🧪 Test Scenarios
+✅ Valid Login Test
+Enter correct credentials
+Click login
+Verify success message: Logged In Successfully
+
+❌ Invalid Login Test
+Enter invalid credentials
+Click login
+Validate error message: "Your username is invalid!" or "Your password is invalid!"
+
+📸 Screenshot After Action
+Takes a screenshot after login attempt for evidence or debugging
+
+
+
 
