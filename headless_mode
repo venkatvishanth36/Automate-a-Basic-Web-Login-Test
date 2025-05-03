@@ -1,0 +1,38 @@
+🤖 Automate Basic Web Login in Headless Mode
+This project demonstrates how to automate a basic login flow using Selenium WebDriver in headless mode with Java. Headless mode runs the browser without a UI, ideal for CI/CD pipelines and faster execution.
+
+🔍 What This Project Does
+Opens Practice Test Automation login page in headless mode
+Inputs valid credentials
+Submits the login form
+Verifies the success message
+Prints pass/fail result in console
+
+🧰 Tech Stack
+Java
+Selenium WebDriver
+ChromeDriver
+Headless Chrome
+Eclipse (or any Java IDE)
+
+🧪 Test Scenario
+Step	Action	Input	Expected Output
+1	Open login page	-	Page loads successfully
+2	Enter username	student	Username filled
+3	Enter password	Password123	Password filled
+4	Click login	-	User is redirected
+5	Validate login success	-	Message: Logged In Successfully
+
+
+
+✅ Output Example
+If successful:
+Login Test Passed
+
+If failed:
+Login Test Failed
+
+📌 Notes
+This script runs Chrome in headless mode (no browser window opens).
+Thread.sleep() is used for demo pacing — replace with WebDriverWait for real-time automation.
+Useful for CI pipelines, Docker containers, and silent test runs.
