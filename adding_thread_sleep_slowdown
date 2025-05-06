@@ -1,0 +1,24 @@
+# 🚀 adding_thread_sleep_slowdown
+
+This is a simple Selenium automation script written in Java that demonstrates how to automate a basic login form on [Practice Test Automation](https://practicetestautomation.com/practice-test-login/) using `Thread.sleep()` to intentionally slow down each step of the process for visibility and debugging purposes.
+
+## 📋 What It Does
+
+- Opens Chrome and navigates to the login page.
+- Enters a username and password.
+- Clicks the login button.
+- Validates whether the login was successful.
+- Uses `Thread.sleep()` after each major step to simulate slower execution for observation.
+
+## ✅ Technologies Used
+
+- Java
+- Selenium WebDriver
+- ChromeDriver
+
+## 🔧 Prerequisites
+
+- [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (17 or later recommended)
+- [Maven](https://maven.apache.org/) or [Eclipse](https://www.eclipse.org/) with configured build path
+- Chrome browser installed
+- ChromeDriver compatible with your Chrome version (ensure it's on your system PATH or set manually)
