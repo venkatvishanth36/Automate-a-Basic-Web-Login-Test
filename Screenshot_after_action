@@ -1,0 +1,50 @@
+This project demonstrates an automated web login test using Selenium WebDriver in Java, where a screenshot is captured after the login action. It uses the Practice Test Automation website for testing purposes.
+
+🚀 Features
+Automates the login process using valid credentials.
+
+Captures a screenshot after clicking the login button.
+
+Validates successful login with a confirmation message.
+
+Saves the screenshot to a specific directory.
+
+Uses ChromeDriver and Selenium WebDriver.
+
+🛠️ Technologies Used
+Java
+
+Selenium WebDriver
+
+ChromeDriver
+
+Eclipse IDE (optional)
+
+JDK 8 or above
+
+📸 Screenshot Functionality
+The takeScreenshot() method captures the browser state after clicking the Login button and saves it as after_login.png in your project directory.
+
+🧪 How to Run
+Clone this repository or download the .java file.
+
+Set up Java, Selenium WebDriver, and ChromeDriver.
+
+Open the project in Eclipse or your preferred IDE.
+
+Replace the screenshot save path (C:\\Users\\venka\\...) with your local path if needed.
+
+Run the Screenshot_after_action class.
+
+Check for output in the console and the screenshot image in your directory.
+
+✅ Expected Output
+Console displays: Login Test Passed!! if login is successful.
+
+Screenshot saved as: after_login.png.
+
+📂 Project Structure
+automate_basic_web_login_test/
+├── Screenshot_after_action.java
+├── after_login.png (generated after execution)
+
